@@ -1,0 +1,248 @@
+{
+  "nodes": [
+    {
+      "id": "指挥员_刘司令员",
+      "type": "指挥员",
+      "label": "刘司令员",
+      "attributes": {"军衔": "中将", "所属": "第1集团军", "职务": "总指挥"},
+      "source": "军事文电"
+    },
+    {
+      "id": "指挥员_王副司令",
+      "type": "指挥员",
+      "label": "王副司令",
+      "attributes": {"军衔": "少将", "所属": "第1集团军", "职务": "副指挥"},
+      "source": "军事文电"
+    },
+    {
+      "id": "指挥员_张参谋长",
+      "type": "指挥员",
+      "label": "张参谋长",
+      "attributes": {"军衔": "大校", "所属": "第1集团军", "职务": "参谋长"},
+      "source": "军事文电"
+    },
+    {
+      "id": "部队_步兵第1团",
+      "type": "部队",
+      "label": "步兵第1团",
+      "attributes": {"兵力": 2500, "位置": "高地", "战备等级": "一级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "部队_装甲第2营",
+      "type": "部队",
+      "label": "装甲第2营",
+      "attributes": {"兵力": 450, "坦克数量": 32, "战备等级": "一级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "部队_炮兵第3连",
+      "type": "部队",
+      "label": "炮兵第3连",
+      "attributes": {"兵力": 120, "火炮数量": 6, "战备等级": "一级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "部队_工兵连",
+      "type": "部队",
+      "label": "工兵连",
+      "attributes": {"兵力": 80, "战备等级": "二级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "部队_侦察排",
+      "type": "部队",
+      "label": "侦察排",
+      "attributes": {"兵力": 30, "战备等级": "一级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "阵地_302高地",
+      "type": "阵地",
+      "label": "302高地",
+      "attributes": {"坐标": "40-78", "海拔": 315, "重要性": "关键"},
+      "source": "军事文电"
+    },
+    {
+      "id": "阵地_青龙江渡口",
+      "type": "阵地",
+      "label": "青龙江渡口",
+      "attributes": {"坐标": "41-82", "河宽": 120, "重要性": "重要"},
+      "source": "军事文电"
+    },
+    {
+      "id": "阵地_北山阵地",
+      "type": "阵地",
+      "label": "北山阵地",
+      "attributes": {"坐标": "39-76", "重要性": "辅助"},
+      "source": "军事文电"
+    },
+    {
+      "id": "设施_一号通信站",
+      "type": "设施",
+      "label": "一号通信站",
+      "attributes": {"类型": "无线电台", "状态": "运行中"},
+      "source": "军事文电"
+    },
+    {
+      "id": "设施_后勤补给点A",
+      "type": "设施",
+      "label": "后勤补给点A",
+      "attributes": {"补给品": "弹药,食品,燃油", "容量": 500},
+      "source": "军事文电"
+    },
+    {
+      "id": "武器_ZTZ99坦克连",
+      "type": "武器",
+      "label": "ZTZ-99坦克连",
+      "attributes": {"数量": 12, "所属": "装甲2营"},
+      "source": "军事文电"
+    },
+    {
+      "id": "武器_PLZ05榴弹炮",
+      "type": "武器",
+      "label": "PLZ-05榴弹炮",
+      "attributes": {"数量": 6, "所属": "炮兵3连"},
+      "source": "军事文电"
+    },
+    {
+      "id": "武器_无人机侦察连",
+      "type": "武器",
+      "label": "无人机侦察连",
+      "attributes": {"数量": 4, "类型": "侦察"},
+      "source": "军事文电"
+    },
+    {
+      "id": "行动_利剑行动",
+      "type": "行动",
+      "label": "利剑行动",
+      "attributes": {"日期": "2025-06-15", "目标": "占领302高地"},
+      "source": "军事文电"
+    },
+    {
+      "id": "行动_渡口保障",
+      "type": "行动",
+      "label": "渡口保障",
+      "attributes": {"日期": "2025-06-16", "目标": "保障渡河"},
+      "source": "军事文电"
+    },
+    {
+      "id": "命令_作战命令001",
+      "type": "命令",
+      "label": "作战命令No.001",
+      "attributes": {"时间": "2025-06-14 20:00", "优先级": "最高"},
+      "source": "军事文电"
+    },
+    {
+      "id": "命令_联合作战令",
+      "type": "命令",
+      "label": "联合作战令",
+      "attributes": {"时间": "2025-06-14 22:00", "优先级": "最高", "范围": "全军"},
+      "source": "军事文电"
+    },
+    {
+      "id": "传输_密电015",
+      "type": "传输",
+      "label": "密电-015",
+      "attributes": {"时间": "06:12", "频率": "12.5MHz", "加密": true},
+      "source": "军事文电"
+    },
+    {
+      "id": "传输_报告028",
+      "type": "传输",
+      "label": "报告-028",
+      "attributes": {"时间": "08:45", "发送方": "张参谋长", "接收方": "刘司令员"},
+      "source": "军事文电"
+    },
+    {
+      "id": "中部战区",
+      "type": "战区",
+      "label": "中部战区",
+      "attributes": {"辖区": "中部", "级别": "战区级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "北部战区",
+      "type": "战区",
+      "label": "北部战区",
+      "attributes": {"辖区": "北部", "级别": "战区级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "东部战区",
+      "type": "战区",
+      "label": "东部战区",
+      "attributes": {"辖区": "东部", "级别": "战区级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "南部战区",
+      "type": "战区",
+      "label": "南部战区",
+      "attributes": {"辖区": "南部", "级别": "战区级"},
+      "source": "军事文电"
+    },
+    {
+      "id": "西部战区",
+      "type": "战区",
+      "label": "西部战区",
+      "attributes": {"辖区": "西部", "级别": "战区级"},
+      "source": "军事文电"
+    }
+  ],
+  "edges": [
+    {"source": "指挥员_刘司令员", "target": "指挥员_王副司令", "type": "协作", "weight": 8.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_刘司令员", "target": "指挥员_张参谋长", "type": "协作", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_刘司令员", "target": "部队_步兵第1团", "type": "指挥", "weight": 10.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_王副司令", "target": "部队_装甲第2营", "type": "指挥", "weight": 8.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_张参谋长", "target": "部队_炮兵第3连", "type": "指挥", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_张参谋长", "target": "部队_工兵连", "type": "指挥", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_步兵第1团", "target": "部队_装甲第2营", "type": "隶属", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_步兵第1团", "target": "部队_炮兵第3连", "type": "隶属", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_装甲第2营", "target": "武器_ZTZ99坦克连", "type": "部署", "weight": 6.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_炮兵第3连", "target": "武器_PLZ05榴弹炮", "type": "部署", "weight": 6.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_侦察排", "target": "武器_无人机侦察连", "type": "部署", "weight": 4.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_步兵第1团", "target": "阵地_302高地", "type": "驻扎于", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_工兵连", "target": "阵地_青龙江渡口", "type": "驻扎于", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_炮兵第3连", "target": "阵地_北山阵地", "type": "驻扎于", "weight": 2.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "设施_一号通信站", "target": "指挥员_刘司令员", "type": "驻扎于", "weight": 2.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "设施_后勤补给点A", "target": "阵地_北山阵地", "type": "驻扎于", "weight": 2.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_利剑行动", "target": "指挥员_刘司令员", "type": "参与", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_利剑行动", "target": "部队_步兵第1团", "type": "参与", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_利剑行动", "target": "部队_装甲第2营", "type": "参与", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_利剑行动", "target": "部队_炮兵第3连", "type": "参与", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_渡口保障", "target": "部队_工兵连", "type": "参与", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_渡口保障", "target": "部队_侦察排", "type": "参与", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_作战命令001", "target": "行动_利剑行动", "type": "下令", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_作战命令001", "target": "指挥员_刘司令员", "type": "传输至", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "中部战区", "type": "下令", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "北部战区", "type": "下令", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "东部战区", "type": "下令", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "南部战区", "type": "下令", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "西部战区", "type": "下令", "weight": 9.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "命令_联合作战令", "target": "指挥员_刘司令员", "type": "传输至", "weight": 8.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "中部战区", "target": "部队_步兵第1团", "type": "指挥", "weight": 7.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "中部战区", "target": "部队_装甲第2营", "type": "指挥", "weight": 7.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "北部战区", "target": "部队_炮兵第3连", "type": "指挥", "weight": 6.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "东部战区", "target": "部队_工兵连", "type": "指挥", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "东部战区", "target": "部队_侦察排", "type": "指挥", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "传输_密电015", "target": "指挥员_张参谋长", "type": "传输至", "weight": 4.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "指挥员_刘司令员", "target": "传输_密电015", "type": "传输至", "weight": 4.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "传输_报告028", "target": "指挥员_刘司令员", "type": "传输至", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "传输_报告028", "target": "指挥员_张参谋长", "type": "接收自", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_装甲第2营", "target": "指挥员_王副司令", "type": "汇报", "weight": 5.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_步兵第1团", "target": "指挥员_刘司令员", "type": "汇报", "weight": 6.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_炮兵第3连", "target": "指挥员_张参谋长", "type": "汇报", "weight": 4.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "部队_侦察排", "target": "指挥员_张参谋长", "type": "汇报", "weight": 3.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "武器_ZTZ99坦克连", "target": "阵地_302高地", "type": "驻扎于", "weight": 2.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "阵地_302高地", "target": "命令_作战命令001", "type": "关联命令", "weight": 2.0, "attributes": {}, "source_type": "军事文电"},
+    {"source": "行动_利剑行动", "target": "命令_作战命令001", "type": "关联命令", "weight": 3.0, "attributes": {}, "source_type": "军事文电"}
+  ],
+  "metadata": {
+    "description": "军事文电数据 - 第1集团军利剑行动战前部署通信网络（含战区）",
+    "created_by": "多源异构数据复杂网络分析模型",
+    "scenario": "军事文电通信网络分析",
+    "node_type_count": 9,
+    "edge_type_count": 11
+  }
+}

@@ -1,0 +1,553 @@
+{
+  "comprehensive_importance": {
+    "top_important_nodes": [
+      {
+        "node": "cmdr_1",
+        "comprehensive_score": 0.408756,
+        "type": "commander",
+        "label": "刘司令员",
+        "degree_centrality": 0.4,
+        "betweenness_centrality": 0.452632,
+        "closeness_centrality": 0.5,
+        "eigenvector_centrality": 0.564819,
+        "pagerank": 0.13817
+      },
+      {
+        "node": "cmdr_3",
+        "comprehensive_score": 0.312581,
+        "type": "commander",
+        "label": "张参谋长",
+        "degree_centrality": 0.3,
+        "betweenness_centrality": 0.397368,
+        "closeness_centrality": 0.512821,
+        "eigenvector_centrality": 0.280469,
+        "pagerank": 0.10111
+      },
+      {
+        "node": "unit_3",
+        "comprehensive_score": 0.257196,
+        "type": "unit",
+        "label": "炮兵第3连",
+        "degree_centrality": 0.25,
+        "betweenness_centrality": 0.310526,
+        "closeness_centrality": 0.487805,
+        "eigenvector_centrality": 0.201201,
+        "pagerank": 0.080768
+      },
+      {
+        "node": "op_1",
+        "comprehensive_score": 0.24524,
+        "type": "operation",
+        "label": "利剑行动",
+        "degree_centrality": 0.25,
+        "betweenness_centrality": 0.213158,
+        "closeness_centrality": 0.454545,
+        "eigenvector_centrality": 0.303411,
+        "pagerank": 0.065432
+      },
+      {
+        "node": "unit_1",
+        "comprehensive_score": 0.244966,
+        "type": "unit",
+        "label": "步兵第1团",
+        "degree_centrality": 0.25,
+        "betweenness_centrality": 0.055263,
+        "closeness_centrality": 0.454545,
+        "eigenvector_centrality": 0.474873,
+        "pagerank": 0.089968
+      },
+      {
+        "node": "ord_1",
+        "comprehensive_score": 0.168213,
+        "type": "order",
+        "label": "作战命令No.001",
+        "degree_centrality": 0.15,
+        "betweenness_centrality": 0.118421,
+        "closeness_centrality": 0.408163,
+        "eigenvector_centrality": 0.19536,
+        "pagerank": 0.041557
+      },
+      {
+        "node": "trans_2",
+        "comprehensive_score": 0.16698,
+        "type": "transmission",
+        "label": "报告-028",
+        "degree_centrality": 0.1,
+        "betweenness_centrality": 0.252632,
+        "closeness_centrality": 0.408163,
+        "eigenvector_centrality": 0.090752,
+        "pagerank": 0.022236
+      },
+      {
+        "node": "unit_2",
+        "comprehensive_score": 0.164515,
+        "type": "unit",
+        "label": "装甲第2营",
+        "degree_centrality": 0.2,
+        "betweenness_centrality": 0.007895,
+        "closeness_centrality": 0.350877,
+        "eigenvector_centrality": 0.2783,
+        "pagerank": 0.071248
+      },
+      {
+        "node": "unit_5",
+        "comprehensive_score": 0.147147,
+        "type": "unit",
+        "label": "侦察排",
+        "degree_centrality": 0.15,
+        "betweenness_centrality": 0.184211,
+        "closeness_centrality": 0.37037,
+        "eigenvector_centrality": 0.031148,
+        "pagerank": 0.046543
+      },
+      {
+        "node": "cmdr_2",
+        "comprehensive_score": 0.143448,
+        "type": "commander",
+        "label": "王副司令",
+        "degree_centrality": 0.1,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.363636,
+        "eigenvector_centrality": 0.291183,
+        "pagerank": 0.053328
+      }
+    ],
+    "importance_distribution": {
+      "mean": 0.1526440489126563,
+      "std": 0.09181808386128741,
+      "min": 0.0531166059242719,
+      "max": 0.4087557553936868,
+      "p25": 0.07577536824383516,
+      "p50": 0.1348687007646282,
+      "p75": 0.1682131385338802
+    },
+    "total_nodes_analyzed": 21
+  },
+  "substitutability": {
+    "top_substitutable_nodes": [
+      {
+        "node": "pos_1",
+        "substitutability_score": 0.803854,
+        "type": "position",
+        "label": "302高地"
+      },
+      {
+        "node": "op_1",
+        "substitutability_score": 0.782568,
+        "type": "operation",
+        "label": "利剑行动"
+      },
+      {
+        "node": "ord_1",
+        "substitutability_score": 0.742506,
+        "type": "order",
+        "label": "作战命令No.001"
+      },
+      {
+        "node": "unit_1",
+        "substitutability_score": 0.72656,
+        "type": "unit",
+        "label": "步兵第1团"
+      },
+      {
+        "node": "unit_2",
+        "substitutability_score": 0.697964,
+        "type": "unit",
+        "label": "装甲第2营"
+      },
+      {
+        "node": "wp_1",
+        "substitutability_score": 0.695909,
+        "type": "weapon",
+        "label": "ZTZ-99坦克连"
+      },
+      {
+        "node": "trans_2",
+        "substitutability_score": 0.679473,
+        "type": "transmission",
+        "label": "报告-028"
+      },
+      {
+        "node": "op_2",
+        "substitutability_score": 0.628401,
+        "type": "operation",
+        "label": "渡口保障"
+      },
+      {
+        "node": "unit_5",
+        "substitutability_score": 0.626324,
+        "type": "unit",
+        "label": "侦察排"
+      },
+      {
+        "node": "unit_4",
+        "substitutability_score": 0.612828,
+        "type": "unit",
+        "label": "工兵连"
+      }
+    ],
+    "top_irreplaceable_nodes": [
+      {
+        "node": "cmdr_3",
+        "substitutability_score": 0.584238,
+        "type": "commander",
+        "label": "张参谋长"
+      },
+      {
+        "node": "pos_3",
+        "substitutability_score": 0.535864,
+        "type": "position",
+        "label": "北山阵地"
+      },
+      {
+        "node": "fac_2",
+        "substitutability_score": 0.53373,
+        "type": "facility",
+        "label": "后勤补给点A"
+      },
+      {
+        "node": "pos_2",
+        "substitutability_score": 0.490898,
+        "type": "position",
+        "label": "青龙江渡口"
+      },
+      {
+        "node": "wp_3",
+        "substitutability_score": 0.490898,
+        "type": "weapon",
+        "label": "无人机侦察连"
+      },
+      {
+        "node": "cmdr_1",
+        "substitutability_score": 0.485378,
+        "type": "commander",
+        "label": "刘司令员"
+      },
+      {
+        "node": "cmdr_2",
+        "substitutability_score": 0.484048,
+        "type": "commander",
+        "label": "王副司令"
+      },
+      {
+        "node": "trans_1",
+        "substitutability_score": 0.47054,
+        "type": "transmission",
+        "label": "密电-015"
+      },
+      {
+        "node": "wp_2",
+        "substitutability_score": 0.454455,
+        "type": "weapon",
+        "label": "PLZ-05榴弹炮"
+      },
+      {
+        "node": "fac_1",
+        "substitutability_score": 0.434637,
+        "type": "facility",
+        "label": "一号通信站"
+      }
+    ],
+    "distribution": {
+      "mean": 0.5980437357622778,
+      "std": 0.11177021264288906,
+      "min": 0.4346366311347989,
+      "max": 0.8038538196757716,
+      "p25": 0.49089773484343757,
+      "p50": 0.5978449949942951,
+      "p75": 0.6959092747692013
+    }
+  },
+  "structural_holes": {
+    "top_structural_hole_nodes": [
+      {
+        "node": "cmdr_1",
+        "constraint": 0.218021,
+        "effective_size": 7.0,
+        "type": "commander",
+        "label": "刘司令员"
+      },
+      {
+        "node": "unit_3",
+        "constraint": 0.2352,
+        "effective_size": 4.6,
+        "type": "unit",
+        "label": "炮兵第3连"
+      },
+      {
+        "node": "cmdr_3",
+        "constraint": 0.264757,
+        "effective_size": 5.3333,
+        "type": "commander",
+        "label": "张参谋长"
+      },
+      {
+        "node": "unit_2",
+        "constraint": 0.305,
+        "effective_size": 3.5,
+        "type": "unit",
+        "label": "装甲第2营"
+      },
+      {
+        "node": "unit_1",
+        "constraint": 0.312025,
+        "effective_size": 3.8,
+        "type": "unit",
+        "label": "步兵第1团"
+      },
+      {
+        "node": "unit_4",
+        "constraint": 0.333333,
+        "effective_size": 3.0,
+        "type": "unit",
+        "label": "工兵连"
+      },
+      {
+        "node": "pos_1",
+        "constraint": 0.333333,
+        "effective_size": 3.0,
+        "type": "position",
+        "label": "302高地"
+      },
+      {
+        "node": "unit_5",
+        "constraint": 0.333333,
+        "effective_size": 3.0,
+        "type": "unit",
+        "label": "侦察排"
+      },
+      {
+        "node": "op_1",
+        "constraint": 0.359094,
+        "effective_size": 3.4,
+        "type": "operation",
+        "label": "利剑行动"
+      },
+      {
+        "node": "ord_1",
+        "constraint": 0.411736,
+        "effective_size": 2.3333,
+        "type": "order",
+        "label": "作战命令No.001"
+      }
+    ],
+    "top_effective_size_nodes": [
+      {
+        "node": "cmdr_1",
+        "effective_size": 7.0,
+        "constraint": 0.218021,
+        "type": "commander",
+        "label": "刘司令员"
+      },
+      {
+        "node": "cmdr_3",
+        "effective_size": 5.3333,
+        "constraint": 0.264757,
+        "type": "commander",
+        "label": "张参谋长"
+      },
+      {
+        "node": "unit_3",
+        "effective_size": 4.6,
+        "constraint": 0.2352,
+        "type": "unit",
+        "label": "炮兵第3连"
+      },
+      {
+        "node": "unit_1",
+        "effective_size": 3.8,
+        "constraint": 0.312025,
+        "type": "unit",
+        "label": "步兵第1团"
+      },
+      {
+        "node": "unit_2",
+        "effective_size": 3.5,
+        "constraint": 0.305,
+        "type": "unit",
+        "label": "装甲第2营"
+      },
+      {
+        "node": "op_1",
+        "effective_size": 3.4,
+        "constraint": 0.359094,
+        "type": "operation",
+        "label": "利剑行动"
+      },
+      {
+        "node": "unit_4",
+        "effective_size": 3.0,
+        "constraint": 0.333333,
+        "type": "unit",
+        "label": "工兵连"
+      },
+      {
+        "node": "pos_1",
+        "effective_size": 3.0,
+        "constraint": 0.333333,
+        "type": "position",
+        "label": "302高地"
+      },
+      {
+        "node": "unit_5",
+        "effective_size": 3.0,
+        "constraint": 0.333333,
+        "type": "unit",
+        "label": "侦察排"
+      },
+      {
+        "node": "ord_1",
+        "effective_size": 2.3333,
+        "constraint": 0.411736,
+        "type": "order",
+        "label": "作战命令No.001"
+      }
+    ]
+  },
+  "key_player_analysis": {
+    "top_key_players": [
+      {
+        "node": "unit_3",
+        "impact_score": 0.187477,
+        "type": "unit",
+        "label": "炮兵第3连"
+      },
+      {
+        "node": "cmdr_3",
+        "impact_score": 0.175764,
+        "type": "commander",
+        "label": "张参谋长"
+      },
+      {
+        "node": "cmdr_1",
+        "impact_score": 0.150794,
+        "type": "commander",
+        "label": "刘司令员"
+      },
+      {
+        "node": "pos_3",
+        "impact_score": 0.143739,
+        "type": "position",
+        "label": "北山阵地"
+      },
+      {
+        "node": "unit_5",
+        "impact_score": 0.125123,
+        "type": "unit",
+        "label": "侦察排"
+      },
+      {
+        "node": "unit_4",
+        "impact_score": 0.116702,
+        "type": "unit",
+        "label": "工兵连"
+      },
+      {
+        "node": "op_1",
+        "impact_score": 0.034241,
+        "type": "operation",
+        "label": "利剑行动"
+      },
+      {
+        "node": "trans_2",
+        "impact_score": 0.026684,
+        "type": "transmission",
+        "label": "报告-028"
+      },
+      {
+        "node": "unit_1",
+        "impact_score": 0.017674,
+        "type": "unit",
+        "label": "步兵第1团"
+      },
+      {
+        "node": "ord_1",
+        "impact_score": 0.015595,
+        "type": "order",
+        "label": "作战命令No.001"
+      }
+    ],
+    "distribution": {
+      "mean": 0.048269301946850404,
+      "std": 0.06632329390523853,
+      "min": 0.0,
+      "max": 0.1874766028996542,
+      "p25": 0.0,
+      "p50": 0.01105263157894737,
+      "p75": 0.11670188128549258
+    }
+  },
+  "vulnerability_contribution": {
+    "top_vulnerability_contributors": [
+      {
+        "node": "cmdr_3",
+        "vulnerability_score": 0.223785,
+        "type": "commander",
+        "label": "张参谋长"
+      },
+      {
+        "node": "unit_3",
+        "vulnerability_score": 0.173895,
+        "type": "unit",
+        "label": "炮兵第3连"
+      },
+      {
+        "node": "cmdr_1",
+        "vulnerability_score": 0.139512,
+        "type": "commander",
+        "label": "刘司令员"
+      },
+      {
+        "node": "unit_4",
+        "vulnerability_score": 0.068364,
+        "type": "unit",
+        "label": "工兵连"
+      },
+      {
+        "node": "unit_5",
+        "vulnerability_score": 0.068364,
+        "type": "unit",
+        "label": "侦察排"
+      },
+      {
+        "node": "pos_3",
+        "vulnerability_score": 0.055712,
+        "type": "position",
+        "label": "北山阵地"
+      },
+      {
+        "node": "op_1",
+        "vulnerability_score": 0.047023,
+        "type": "operation",
+        "label": "利剑行动"
+      },
+      {
+        "node": "unit_1",
+        "vulnerability_score": 0.046343,
+        "type": "unit",
+        "label": "步兵第1团"
+      },
+      {
+        "node": "unit_2",
+        "vulnerability_score": 0.031583,
+        "type": "unit",
+        "label": "装甲第2营"
+      },
+      {
+        "node": "ord_1",
+        "vulnerability_score": 0.024712,
+        "type": "order",
+        "label": "作战命令No.001"
+      }
+    ],
+    "distribution": {
+      "mean": 0.04811208627355018,
+      "std": 0.05830940871000346,
+      "min": 0.007142857142857142,
+      "max": 0.22378533358713257,
+      "p25": 0.014285714285714284,
+      "p50": 0.021428571428571425,
+      "p75": 0.05571246153358093
+    }
+  }
+}

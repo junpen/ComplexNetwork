@@ -1,0 +1,698 @@
+{
+  "resilience_metrics": {
+    "natural_connectivity": 24.898278,
+    "algebraic_connectivity": 0.7368661920584849,
+    "spectral_radius": 27.942799946393905,
+    "degree_assortativity": -0.014088936341935004,
+    "average_node_connectivity": 1.4952380952380953,
+    "edge_connectivity": 1,
+    "edge_density": 0.14761904761904762,
+    "degree_heterogeneity": 0.631302767444546,
+    "is_connected": true,
+    "connected_components": 1,
+    "resilience_score": 0.6091
+  },
+  "vulnerability_metrics": {
+    "articulation_points_count": 6,
+    "articulation_points": [
+      {
+        "node": "unit_4",
+        "label": "工兵连",
+        "type": "unit"
+      },
+      {
+        "node": "unit_5",
+        "label": "侦察排",
+        "type": "unit"
+      },
+      {
+        "node": "cmdr_3",
+        "label": "张参谋长",
+        "type": "commander"
+      },
+      {
+        "node": "unit_3",
+        "label": "炮兵第3连",
+        "type": "unit"
+      },
+      {
+        "node": "pos_3",
+        "label": "北山阵地",
+        "type": "position"
+      },
+      {
+        "node": "cmdr_1",
+        "label": "刘司令员",
+        "type": "commander"
+      }
+    ],
+    "bridges_count": 6,
+    "bridges": [
+      {
+        "source": "cmdr_1",
+        "target": "fac_1"
+      },
+      {
+        "source": "unit_3",
+        "target": "wp_2"
+      },
+      {
+        "source": "unit_3",
+        "target": "pos_3"
+      },
+      {
+        "source": "unit_4",
+        "target": "pos_2"
+      },
+      {
+        "source": "pos_3",
+        "target": "fac_2"
+      },
+      {
+        "source": "unit_5",
+        "target": "wp_3"
+      }
+    ],
+    "k_core_decomposition": {
+      "1": 21,
+      "2": 15
+    },
+    "max_k_core": 2,
+    "node_vulnerability": {
+      "top_nodes": [
+        {
+          "node": "cmdr_3",
+          "vulnerability": 0.201659,
+          "label": "张参谋长",
+          "type": "commander"
+        },
+        {
+          "node": "unit_3",
+          "vulnerability": 0.169874,
+          "label": "炮兵第3连",
+          "type": "unit"
+        },
+        {
+          "node": "cmdr_1",
+          "vulnerability": 0.118415,
+          "label": "刘司令员",
+          "type": "commander"
+        },
+        {
+          "node": "unit_4",
+          "vulnerability": 0.057672,
+          "label": "工兵连",
+          "type": "unit"
+        },
+        {
+          "node": "unit_5",
+          "vulnerability": 0.057672,
+          "label": "侦察排",
+          "type": "unit"
+        },
+        {
+          "node": "pos_3",
+          "vulnerability": 0.048228,
+          "label": "北山阵地",
+          "type": "position"
+        },
+        {
+          "node": "op_1",
+          "vulnerability": 0.019387,
+          "label": "利剑行动",
+          "type": "operation"
+        },
+        {
+          "node": "unit_1",
+          "vulnerability": 0.018221,
+          "label": "步兵第1团",
+          "type": "unit"
+        },
+        {
+          "node": "ord_1",
+          "vulnerability": 0.00563,
+          "label": "作战命令No.001",
+          "type": "order"
+        },
+        {
+          "node": "unit_2",
+          "vulnerability": 0.005163,
+          "label": "装甲第2营",
+          "type": "unit"
+        }
+      ],
+      "average_vulnerability": 0.03362784598627394
+    },
+    "overall_vulnerability_score": 0.03362784598627394
+  },
+  "attack_simulation": {
+    "strategies": [
+      "random",
+      "degree",
+      "betweenness",
+      "pagerank"
+    ],
+    "remove_fractions": [
+      0.05,
+      0.16,
+      0.26,
+      0.37,
+      0.47,
+      0.58,
+      0.68,
+      0.79,
+      0.89,
+      1.0
+    ],
+    "results": {
+      "random": {
+        "0.05": {
+          "avg_lcc_ratio": 0.9219,
+          "avg_efficiency": 0.429449
+        },
+        "0.16": {
+          "avg_lcc_ratio": 0.7695,
+          "avg_efficiency": 0.39159
+        },
+        "0.26": {
+          "avg_lcc_ratio": 0.6276,
+          "avg_efficiency": 0.356417
+        },
+        "0.37": {
+          "avg_lcc_ratio": 0.5019,
+          "avg_efficiency": 0.327443
+        },
+        "0.47": {
+          "avg_lcc_ratio": 0.381,
+          "avg_efficiency": 0.290187
+        },
+        "0.58": {
+          "avg_lcc_ratio": 0.2524,
+          "avg_efficiency": 0.273278
+        },
+        "0.68": {
+          "avg_lcc_ratio": 0.18,
+          "avg_efficiency": 0.243524
+        },
+        "0.79": {
+          "avg_lcc_ratio": 0.1143,
+          "avg_efficiency": 0.197833
+        },
+        "0.89": {
+          "avg_lcc_ratio": 0.0733,
+          "avg_efficiency": 0.2
+        },
+        "1.0": {
+          "avg_lcc_ratio": 0.0,
+          "avg_efficiency": 0.0
+        }
+      },
+      "degree": {
+        "0.05": {
+          "avg_lcc_ratio": 0.9048,
+          "avg_efficiency": 0.376667
+        },
+        "0.16": {
+          "avg_lcc_ratio": 0.4762,
+          "avg_efficiency": 0.190741
+        },
+        "0.26": {
+          "avg_lcc_ratio": 0.2381,
+          "avg_efficiency": 0.115278
+        },
+        "0.37": {
+          "avg_lcc_ratio": 0.1429,
+          "avg_efficiency": 0.065934
+        },
+        "0.47": {
+          "avg_lcc_ratio": 0.0952,
+          "avg_efficiency": 0.015152
+        },
+        "0.58": {
+          "avg_lcc_ratio": 0.0952,
+          "avg_efficiency": 0.027778
+        },
+        "0.68": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.79": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.89": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "1.0": {
+          "avg_lcc_ratio": 0.0,
+          "avg_efficiency": 0.0
+        }
+      },
+      "betweenness": {
+        "0.05": {
+          "avg_lcc_ratio": 0.9048,
+          "avg_efficiency": 0.376667
+        },
+        "0.16": {
+          "avg_lcc_ratio": 0.3333,
+          "avg_efficiency": 0.144336
+        },
+        "0.26": {
+          "avg_lcc_ratio": 0.2857,
+          "avg_efficiency": 0.144444
+        },
+        "0.37": {
+          "avg_lcc_ratio": 0.2381,
+          "avg_efficiency": 0.119048
+        },
+        "0.47": {
+          "avg_lcc_ratio": 0.1905,
+          "avg_efficiency": 0.083333
+        },
+        "0.58": {
+          "avg_lcc_ratio": 0.1429,
+          "avg_efficiency": 0.069444
+        },
+        "0.68": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.79": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.89": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "1.0": {
+          "avg_lcc_ratio": 0.0,
+          "avg_efficiency": 0.0
+        }
+      },
+      "pagerank": {
+        "0.05": {
+          "avg_lcc_ratio": 0.9048,
+          "avg_efficiency": 0.376667
+        },
+        "0.16": {
+          "avg_lcc_ratio": 0.4762,
+          "avg_efficiency": 0.190741
+        },
+        "0.26": {
+          "avg_lcc_ratio": 0.2381,
+          "avg_efficiency": 0.097917
+        },
+        "0.37": {
+          "avg_lcc_ratio": 0.2381,
+          "avg_efficiency": 0.108974
+        },
+        "0.47": {
+          "avg_lcc_ratio": 0.1429,
+          "avg_efficiency": 0.05303
+        },
+        "0.58": {
+          "avg_lcc_ratio": 0.0952,
+          "avg_efficiency": 0.027778
+        },
+        "0.68": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.79": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "0.89": {
+          "avg_lcc_ratio": 0.0476,
+          "avg_efficiency": 0.0
+        },
+        "1.0": {
+          "avg_lcc_ratio": 0.0,
+          "avg_efficiency": 0.0
+        }
+      }
+    },
+    "comparison": {
+      "random": {
+        "mean_lcc_ratio": 0.3822,
+        "mean_efficiency": 0.270972
+      },
+      "degree": {
+        "mean_lcc_ratio": 0.2095,
+        "mean_efficiency": 0.079155
+      },
+      "betweenness": {
+        "mean_lcc_ratio": 0.2238,
+        "mean_efficiency": 0.093727
+      },
+      "pagerank": {
+        "mean_lcc_ratio": 0.2238,
+        "mean_efficiency": 0.085511
+      }
+    }
+  },
+  "cascading_failure_analysis": {
+    "capacity_threshold_analysis": {
+      "threshold_0.5": {
+        "avg_cascade_size": 8.35,
+        "max_cascade_size": 9,
+        "min_cascade_size": 7
+      },
+      "threshold_0.75": {
+        "avg_cascade_size": 5.45,
+        "max_cascade_size": 6,
+        "min_cascade_size": 4
+      },
+      "threshold_1.0": {
+        "avg_cascade_size": 5.45,
+        "max_cascade_size": 6,
+        "min_cascade_size": 4
+      },
+      "threshold_1.25": {
+        "avg_cascade_size": 3.85,
+        "max_cascade_size": 5,
+        "min_cascade_size": 3
+      },
+      "threshold_1.5": {
+        "avg_cascade_size": 2.85,
+        "max_cascade_size": 3,
+        "min_cascade_size": 2
+      }
+    },
+    "detailed_cascades": [
+      {
+        "trigger_node": "cmdr_1",
+        "label": "刘司令员",
+        "cascade_depth": 10,
+        "affected_nodes": 10
+      },
+      {
+        "trigger_node": "cmdr_2",
+        "label": "王副司令",
+        "cascade_depth": 7,
+        "affected_nodes": 7
+      },
+      {
+        "trigger_node": "cmdr_3",
+        "label": "张参谋长",
+        "cascade_depth": 12,
+        "affected_nodes": 12
+      },
+      {
+        "trigger_node": "unit_1",
+        "label": "步兵第1团",
+        "cascade_depth": 7,
+        "affected_nodes": 7
+      },
+      {
+        "trigger_node": "trans_1",
+        "label": "密电-015",
+        "cascade_depth": 7,
+        "affected_nodes": 7
+      }
+    ]
+  },
+  "robustness_curves": {
+    "robustness_curves": {
+      "betweenness_targeted": [
+        {
+          "fraction": 0.0,
+          "lcc_ratio": 1.0
+        },
+        {
+          "fraction": 0.05,
+          "lcc_ratio": 0.9048
+        },
+        {
+          "fraction": 0.1,
+          "lcc_ratio": 0.5238
+        },
+        {
+          "fraction": 0.15,
+          "lcc_ratio": 0.3333
+        },
+        {
+          "fraction": 0.2,
+          "lcc_ratio": 0.3333
+        },
+        {
+          "fraction": 0.25,
+          "lcc_ratio": 0.2857
+        },
+        {
+          "fraction": 0.3,
+          "lcc_ratio": 0.2857
+        },
+        {
+          "fraction": 0.35,
+          "lcc_ratio": 0.2381
+        },
+        {
+          "fraction": 0.4,
+          "lcc_ratio": 0.1905
+        },
+        {
+          "fraction": 0.45,
+          "lcc_ratio": 0.1905
+        },
+        {
+          "fraction": 0.5,
+          "lcc_ratio": 0.1905
+        },
+        {
+          "fraction": 0.55,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.6,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.65,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.7,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.75,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.8,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.85,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.9,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.95,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 1.0,
+          "lcc_ratio": 0
+        }
+      ],
+      "degree_targeted": [
+        {
+          "fraction": 0.0,
+          "lcc_ratio": 1.0
+        },
+        {
+          "fraction": 0.05,
+          "lcc_ratio": 0.9048
+        },
+        {
+          "fraction": 0.1,
+          "lcc_ratio": 0.5238
+        },
+        {
+          "fraction": 0.15,
+          "lcc_ratio": 0.4762
+        },
+        {
+          "fraction": 0.2,
+          "lcc_ratio": 0.2857
+        },
+        {
+          "fraction": 0.25,
+          "lcc_ratio": 0.2381
+        },
+        {
+          "fraction": 0.3,
+          "lcc_ratio": 0.2381
+        },
+        {
+          "fraction": 0.35,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.4,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.45,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.5,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.55,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.6,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.65,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.7,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.75,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.8,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.85,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.9,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.95,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 1.0,
+          "lcc_ratio": 0
+        }
+      ],
+      "random": [
+        {
+          "fraction": 0.0,
+          "lcc_ratio": 1.0
+        },
+        {
+          "fraction": 0.05,
+          "lcc_ratio": 0.9524
+        },
+        {
+          "fraction": 0.1,
+          "lcc_ratio": 0.9048
+        },
+        {
+          "fraction": 0.15,
+          "lcc_ratio": 0.8095
+        },
+        {
+          "fraction": 0.2,
+          "lcc_ratio": 0.6667
+        },
+        {
+          "fraction": 0.25,
+          "lcc_ratio": 0.619
+        },
+        {
+          "fraction": 0.3,
+          "lcc_ratio": 0.619
+        },
+        {
+          "fraction": 0.35,
+          "lcc_ratio": 0.5714
+        },
+        {
+          "fraction": 0.4,
+          "lcc_ratio": 0.4286
+        },
+        {
+          "fraction": 0.45,
+          "lcc_ratio": 0.381
+        },
+        {
+          "fraction": 0.5,
+          "lcc_ratio": 0.381
+        },
+        {
+          "fraction": 0.55,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.6,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.65,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.7,
+          "lcc_ratio": 0.1429
+        },
+        {
+          "fraction": 0.75,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.8,
+          "lcc_ratio": 0.0952
+        },
+        {
+          "fraction": 0.85,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.9,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 0.95,
+          "lcc_ratio": 0.0476
+        },
+        {
+          "fraction": 1.0,
+          "lcc_ratio": 0
+        }
+      ]
+    },
+    "area_under_curve": {
+      "betweenness_targeted": 0.2321,
+      "degree_targeted": 0.2107,
+      "random": 0.3869
+    },
+    "robustness_ranking": [
+      [
+        "random",
+        0.3869
+      ],
+      [
+        "betweenness_targeted",
+        0.2321
+      ],
+      [
+        "degree_targeted",
+        0.2107
+      ]
+    ]
+  }
+}
